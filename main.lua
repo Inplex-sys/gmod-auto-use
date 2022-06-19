@@ -35,7 +35,6 @@ hook.Add("HUDPaint", "DrawAutoUse", function()
     else
         status = "disabled"
     end
-
     draw.DrawText("The Auto-Use is " .. status, "Staff_Font", ScrW() - ScrW() + 200, ScrH() - ScrH() + 24, Color(255, 255, 255, 255), 1)
 end)
 
