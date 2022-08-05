@@ -16,7 +16,7 @@ surface.CreateFont("Staff_Font", {
     outline = false,
 })
 
-_G['autoUse'] = false
+_G['autoUse'] = true
 
 hook.Add("CreateMove", "auto_use", function(cl_cmd)
     if input.IsKeyDown(KEY_J) then
